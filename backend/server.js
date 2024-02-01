@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ["http://localhost:3000","https://www.ansaren.online"],
+  origin: ["http://localhost:3000","https://medxonline.onrender.com"],
   credentials: true,
 };
 
@@ -59,7 +59,7 @@ const server = app.listen(port,()=>console.log(`server start on port ${port}`));
 const io = new Server(server, {
   pingTimeout: 60000,
   cors: {
-    origin: ["http://localhost:3000","https://www.ansaren.online"],
+    origin: ["http://localhost:3000","https://medxonline.onrender.com"],
     
   },
 });
