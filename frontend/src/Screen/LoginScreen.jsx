@@ -170,7 +170,8 @@ const LoginScreen = () => {
 
 
       <div style={{color:"rgb(5, 80, 73)",letterSpacing:"1.1px",marginLeft:"-2.8rem", fontFamily: 'Phudu', marginTop:"2rem",fontSize:"0.8rem",width:"23rem"}}> Ready to Join? <Link style={{ fontFamily: 'Squada One',color:"#20B0B9"}} to='/register'>Register  </Link>now and Unlock Your Access!</div>
-     
+      <div style={{color:"rgb(5, 80, 73)",letterSpacing:"1.1px",marginLeft:"-2.8rem", fontFamily: 'Phudu', marginTop:"2rem",fontSize:"10px",width:"23rem"}}> use this user credentials | email:v@mail.com | password:321  </div>
+      <div style={{color:"rgb(5, 80, 73)",letterSpacing:"1.1px",marginLeft:"-2.8rem", fontFamily: 'Phudu', marginTop:"1rem",fontSize:"10px",width:"23rem"}}> use this admin credentials | route: /admin | email:a@mail.com | password:123  </div>
       {isLoading && <Loader />}
 
       
